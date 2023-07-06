@@ -1,0 +1,36 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 100px;
+    color: black;
+    border: 3px black solid;
+    font-size: 20px;
+    box-shadow: 7px 7px 10px grey;
+    transition:  all 3s;
+}
+button:hover{
+    cursor: crosshair;
+    background-color: black;
+    color: white;
+    border-color: white;
+    box-shadow: 7px 7px 10px grey;
+}
+.cuadrado{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(87, 104, 90);
+    cursor: crosshair;
+    border: 3px solid black;
+}
+.contenedor{
+    display: flex;
+    gap: 10px;
+    background-color: blueviolet;
+    flex-wrap: wrap;
+}
